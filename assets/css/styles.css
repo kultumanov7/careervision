@@ -1,0 +1,198 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 0;
+}
+.header {
+    width: 100%;
+    height: 110.62px;
+    display: grid;
+    grid-template-columns: 520px 1fr;
+}
+
+.left_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 43.46px;
+}
+
+.right_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.header_links {
+    font-family: 'Jost', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26.6922px;
+    line-height: 39px;
+    color: #1F93D6;
+}
+
+.btn_enter {
+    border: 0.987654px solid #1F93D6;
+    border-radius: 19.7531px;
+    font-family: 'Jost';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26.6864px;
+    line-height: 39px;
+    color: #1F93D6;
+    background: #FFFFFF;
+    width: 100.74px;
+    height: 53.33px;
+}
+
+.main {
+    width: 100%;
+    background-image: url(../img/main_background.png);
+    background-size: cover;
+    height: 912px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.left_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Ubuntu', sans-serif;
+}
+.title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 83.828px;
+    line-height: 96px;
+    color: #FFFFFF;
+    text-shadow: -6px 5px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 26px;
+    max-width: 650px;
+}
+.subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 43.192px;
+    line-height: 50px;
+    color: #FFFFFF;
+    text-shadow: 0px 3px 0px rgba(0, 0, 0, 0.25);
+    padding-left: 26px;
+    max-width: 710px;
+}
+.right_side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    background: #FFFFFF;
+    box-shadow: -9px 11px 6px rgba(0, 0, 0, 0.25);
+    border-radius: 50px;
+    width: 685px;
+    height: 840px;
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.box_title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 56.866px;
+    line-height: 65px;
+    text-align: center;
+    color: #1F93D6;
+    max-width: 505px;
+    
+}
+
+.box_subtitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 23.6274px;
+    line-height: 31px;
+    color: rgba(0, 0, 0, 0.45);
+    padding-top: 50px;
+    max-width: 505px;
+    max-height: 76px;
+}
+.box_form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 23px;
+}
+
+.box_label {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #1F93D6;
+    padding-top: 20px;
+}
+
+.box_input {
+    width: 513px;
+    height: 90px;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    border-radius: 30px;
+    margin: 10px 0;
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    color: black;
+}
+
+input::placeholder {
+    font-family: 'Raleway', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 33px;
+    color: rgba(0, 0, 0, 0.25);
+  }
+
+.box_btn {
+    width: 285px;
+    height: 55px; 
+    background: #1F93D6;
+    border-radius: 50px;
+    border: none;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #FFFFFF;
+    margin-top: 78px;
+    align-self: center;
+}
+
+.box_footer {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 30px;
+    color: #000000;
+    padding-top: 42px;
+}
+
+.registry_underlined {
+    text-decoration: underline;
+    color: #1F93D6;
+}
