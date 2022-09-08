@@ -5,7 +5,6 @@
 .wrapper {
     display: flex;
     flex-direction: column;
-    margin-bottom: 0;
 }
 .header {
     width: 100%;
@@ -106,6 +105,7 @@
     justify-content: flex-start;
     align-items: center;
     padding-top: 50px;
+    position: relative;
 }
 
 .box_title {
@@ -195,4 +195,12 @@ input::placeholder {
 .registry_underlined {
     text-decoration: underline;
     color: #1F93D6;
+}
+
+.box_decor_img {
+    width: 100px;
+    height: 174px;
+    position: absolute;
+    right: 28px;
+    top: -14px;
 }
