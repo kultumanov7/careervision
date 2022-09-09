@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Jost:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
 
 body {
     margin: 0;
@@ -28,8 +29,9 @@ body {
 .right_header {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-right: 20px;
 }
 
 .header_links {
@@ -39,6 +41,17 @@ body {
     font-size: 26.6922px;
     line-height: 39px;
     color: #1F93D6;
+}
+
+.coloredHeaderLink {
+    width: 124px;
+    height: 50px;
+    background: #1F93D6;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;   
 }
 
 .btn_enter {
@@ -59,10 +72,12 @@ body {
     width: 100%;
     background-image: url(../img/main_background.png);
     background-size: cover;
+    background-repeat: no-repeat;
     height: 912px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    margin: 0 auto;
 }
 
 .left_side {
@@ -120,7 +135,6 @@ body {
     text-align: center;
     color: #1F93D6;
     max-width: 505px;
-    
 }
 
 .box_subtitle {
@@ -146,6 +160,7 @@ body {
     line-height: 30px;
     color: #1F93D6;
     padding-top: 20px;
+    padding-left: 22px;
 }
 
 .box_input {
@@ -160,6 +175,7 @@ body {
     font-size: 25px;
     line-height: 33px;
     color: black;
+    padding-left: 32px;
 }
 
 input::placeholder {
@@ -170,6 +186,40 @@ input::placeholder {
     line-height: 33px;
     color: rgba(0, 0, 0, 0.25);
   }
+
+.checkbox {
+    width: 31px;
+    height: 31px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+}
+
+.container_check {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 14px 15px 0px 15px;
+}
+
+.rememberMe {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1F93D6;
+    padding-left: 8px;
+}
+
+.forgotPass {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #1F93D6;
+    justify-self: flex-end;
+    padding-left: 180px;
+}
 
 .box_btn {
     width: 285px;
@@ -183,7 +233,7 @@ input::placeholder {
     font-size: 26px;
     line-height: 30px;
     color: #FFFFFF;
-    margin-top: 78px;
+    margin-top: 45px;
     align-self: center;
 }
 
@@ -207,4 +257,168 @@ input::placeholder {
     position: absolute;
     right: 28px;
     top: -14px;
+}
+
+
+
+
+
+/* About Us Page */
+.mainAboutUs {
+    width: 100%;
+    background-image: url(../img/AboutUsBackground.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 912px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.sideAboutUs {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 130px 0px 0px 60px;
+}
+
+.titleAboutUs {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 60.9512px;
+    line-height: 70px;
+    color: #1F93D6;
+    max-width: 784.8px;
+}
+
+.subtitleAboutUs {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25.9169px;
+    line-height: 42px;
+    color: #000000;
+    max-width: 632px;
+    padding-top: 33px;
+}
+
+.buttonsAboutUs {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 80px;
+}
+.btnConsultation {
+    width: 459px;
+    height: 68px;
+    background: #1F93D6;
+    border-radius: 50px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.7667px;
+    line-height: 26px;
+    color: #FFFFFF;
+    border: none;
+    margin-right: 49px;
+}
+.KnowMore {
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 21.7667px;
+    line-height: 26px;
+    color: #1F93D6;
+}
+
+/* About Us 10 Page */
+.mainOurTeam {
+    width: 100%;
+    background-image: url(../img/AboutUs10.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 912px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titleOurTeam {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 72.7437px;
+    line-height: 84px;
+    color: #1F93D6;
+    padding: 80px 0 45px 74px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.card {
+    font-family: 'Ubuntu', sans-serif;
+    width: 253px;
+    height: 491px;
+    background: #FFFFFF;
+    box-shadow: -12px 10px 10px rgba(0, 0, 0, 0.25);
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.nameCard {
+    width: 186px;
+    height: 66px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    color: #000000;
+}
+
+.awardsCard {
+    width: 186px;
+    height: 76px;
+    font-style: italic;
+    font-weight: 300;
+    font-size: 19.6205px;
+    line-height: 22px;
+    text-align: center;
+    color: #000000;
+    border-bottom: 0.839372px solid rgba(0, 0, 0, 0.25);
+    border-top: 0.839372px solid rgba(0, 0, 0, 0.25);
+    padding: 13px 0 13px 0;
+}
+
+.jobCard {
+    width: 186px;
+    height: 59px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15.635px;
+    line-height: 18px;
+    text-align: center;
+    color: #000000;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-bottom: 0.839372px solid rgba(0, 0, 0, 0.25);
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 0 8px 0;
 }
