@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
 
 body {
     margin: 0;
@@ -449,12 +450,24 @@ input::placeholder {
 }
 
 .contentOurServices {
-    display: grid;
-    grid-template-rows: repeat(5, 1fr);
-    grid-template-columns: repeat(8, 1fr);
-
+    display: flex;
+    flex-direction: column;
 }
-.containerOurServices {
+
+.upper_content {
+    padding: 40px 92px 96px 92px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.lower_content {
+    padding: 0px 327px 72px 305px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
     width: 361px;
     height: 283px;
     background: #E7F1FE;
@@ -466,7 +479,6 @@ input::placeholder {
     text-align: left;
     align-items: center;
     font-family: 'Ubuntu', sans-serif;
-    margin-left: 92px;
     position: relative;
 }
 
@@ -474,22 +486,22 @@ input::placeholder {
     font-style: normal;
     font-weight: 500;
     font-size: 30px;
-    line-height: 131.4%;
+    line-height: 32px;
     color: #000000;
     width: 260px;
-    height: 47px;
+    height: auto;
+    padding-bottom: 15px;
 }
 
 .container_paragraph {
     font-family: 'Ubuntu', sans-serif;
     font-style: normal;
     font-weight: 300;
-    font-size: 24.5183px;
-    line-height: 131.4%;
-    /* or 32px */
+    font-size: 22px;
+    line-height: 32px;
     color: #000000;
     width: 289px;
-    height: 172px;
+    height: auto;
 }
 
 .logo_img {
