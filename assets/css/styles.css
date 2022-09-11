@@ -43,9 +43,10 @@ body {
     color: #1F93D6;
 }
 
-.coloredHeaderLink {
-    width: 124px;
+.selectedHeaderLink {
+    width: auto;
     height: 50px;
+    padding: 0 19.28px;
     background: #1F93D6;
     border-radius: 70px;
     display: flex;
@@ -421,4 +422,78 @@ input::placeholder {
     justify-content: center;
     align-items: center;
     padding: 8px 0 8px 0;
+}
+
+/* Our Services 3 */
+.mainOurServices {
+    background-image: url(../img/OurServices3Background.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.titleOurServices {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 56.6495px;
+    line-height: 65px;
+    color: #1F93D6;
+    padding: 39px 83px;
+    
+}
+
+.contentOurServices {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(8, 1fr);
+
+}
+.containerOurServices {
+    width: 361px;
+    height: 283px;
+    background: #E7F1FE;
+    box-shadow: -7px 8px 9px rgba(0, 0, 0, 0.25);
+    border-radius: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    font-family: 'Ubuntu', sans-serif;
+    margin-left: 92px;
+    position: relative;
+}
+
+.container_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 131.4%;
+    color: #000000;
+    width: 260px;
+    height: 47px;
+}
+
+.container_paragraph {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24.5183px;
+    line-height: 131.4%;
+    /* or 32px */
+    color: #000000;
+    width: 289px;
+    height: 172px;
+}
+
+.logo_img {
+    position: absolute;
+    top: -48px;
+    right: 48px;
 }
